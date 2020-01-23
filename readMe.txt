@@ -7,7 +7,7 @@ The 'single commas' are just for syntax purposes, DO NOT type them in.
 3 - Type in the command-line: 'javac WordCount.java' to compile the class file.
 4 - Type in the command-line: 'cd ../../..' to return to the src folder.
 5 - Type in the command-line: 'java com.adaptavist.wordcount.WordCount "C:\file\path\example\text.txt"'.
-5 - It should have worked by now, in case of any error please don't doubt to contact me.
+6 - It should have worked by now, in case of any error please don't doubt to contact me.
 
 -- further INFO --
 
