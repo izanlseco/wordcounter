@@ -1,15 +1,15 @@
--- INSTRUCTIONS to use the command-line application --
+## -- INSTRUCTIONS to use the command-line application --
 
 The 'single commas' are just for syntax purposes, DO NOT type them in.
 
-1 - Open the CMD from inside the src path of this folder.
-2 - Type in the command-line: 'cd com/adaptavist/wordcount'.
-3 - Type in the command-line: 'javac WordCount.java' to compile the class file.
-4 - Type in the command-line: 'cd ../../..' to return to the src folder.
-5 - Type in the command-line: 'java com.adaptavist.wordcount.WordCount "C:\file\path\example\text.txt"'.
-5 - It should have worked by now, in case of any error please don't doubt to contact me.
+1. Open the CMD from inside the src path of this folder.
+2. Type in the command-line: 'cd com/adaptavist/wordcount'.
+3. Type in the command-line: 'javac WordCount.java' to compile the class file.
+4. Type in the command-line: 'cd ../../..' to return to the src folder.
+5. Type in the command-line: 'java com.adaptavist.wordcount.WordCount "C:\file\path\example\text.txt"'.
+6. It should have worked by now, in case of any error please don't doubt to contact me.
 
--- further INFO --
+## -- further INFO --
 
 As the task that I was asked for was to "implement a command-line application that takes a path to a file as an argument and prints a word count of its contents" so I have tried to make it simple. 
 
