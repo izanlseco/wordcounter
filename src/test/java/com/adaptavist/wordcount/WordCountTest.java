@@ -1,27 +1,22 @@
 package com.adaptavist.wordcount;
 
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
+import org.junit.rules.TestWatcher;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 import java.util.Objects;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
-import static org.mockito.Mockito.when;
 
 public class WordCountTest {
 
     //Test data
     private String[] arguments;
     private Stream<String> stream;
-    List<String> referentList = new ArrayList<>();
+    private List<String> referentList = new ArrayList<>();
 
     @Before
     public void setup() {
@@ -38,6 +33,9 @@ public class WordCountTest {
         referentList.add("sit");
         referentList.add("amet");
     }
+
+    @Rule
+    public TestWatcher watchman = new Log4jTestWatcher();
 
     @Test
     public void assertNotNullGetAndSplitByWords() throws IOException {
