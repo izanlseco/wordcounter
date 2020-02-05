@@ -20,11 +20,11 @@ public class Log4jTestWatcher extends TestWatcher {
 
     @Override
     protected void failed(Throwable e, Description description) {
-        logger.error(description, e);
+        logger.error("FAILED - " + description, e);
     }
 
     @Override
     protected void succeeded(Description description) {
-        logger.info(description);
+        logger.info("SUCCEED - " + description);
     }
 }
