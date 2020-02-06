@@ -9,6 +9,9 @@ The 'single commas' are just for syntax purposes, DO NOT type them in.
 5. Type in the command-line: 'java com.adaptavist.wordcount.WordCount "C:\file\path\example\text.txt"'.
 6. It should have worked by now, in case of any error please don't doubt to contact me.
 
+### -- Output Example --
+![Output Example](https://i.imgur.com/ETHJXtE.png)
+
 ## -- further INFO --
 
 As the task that I was asked for was to "implement a command-line application that takes a path to a file as an argument and prints a word count of its contents" so I have tried to make it simple. 
@@ -22,6 +25,3 @@ It was a really fun thing to do. I've added a resources folder with a txt that I
 ## -- Added TESTS --
 
 In order to launch them you have to clone the repo into your IDE (I've used IntelliJ) and just launch the tests. They have some simple logging.
-
-### -- Output Example --
-![Output Example](https://i.imgur.com/ETHJXtE.png)
